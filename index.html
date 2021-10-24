@@ -1,0 +1,159 @@
+<!DOCTYPE>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+        <title>Electronic Order</title> 
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box; 
+               }
+               header{
+                padding: 20px;
+                display: flex;
+                width: 80%;
+                position: fixed;
+                align-items: center;
+                background: #d9d9d9;
+                border: solid 2px;
+               }
+               header div ul{
+                list-style: none;
+                display: flex;
+                font-size: 30;
+               }
+               header nav il{
+                list-style: none;
+                display: flex;
+                margin-left: 10px;
+               }
+        </style>
+    </head>
+    <body>
+        <main style="width: 100%; margin: 40px auto; padding: 20px;">
+            <header>  
+                <div>
+                    <ul>
+                        <li style="margin-right: 10px"><a href="left.html" target="_blank"><b>&#8678;</b></a></li>
+                        <li style="margin-right: 10px"><a href="right.html" target="_blank"><b>&#8680;</b></a></li>
+                        <li style="margin-right: 10px"><a href="x.html" target="_blank">&#10006;</a></li>
+                        <li style="margin-right: 10px"><a href="home.html" target="_blank">🏠</a></li>
+                    </ul>
+                </div>
+                <nav>
+                    <il>
+                        <li>
+                            <form>                               
+                                <input id="search" type="text" placeholder="http:/" style="width: 260%;"> 
+                            </form>  
+                        </li> 
+                        <li><form><input type="submit" value="&#128269;" style="margin 15px 15px; align: right;"></form></li> 
+                    </il> 
+                </nav>
+            </header>
+           <table style="border-collapse: collapse; width: 80%; margin: 90px 0 0px 0;">
+               <thead style="border: solid 2px;">
+                   <tr>
+                       <th><a href="hhome.html">Home  |</a></th>
+                       <th align="center"><a href="generatelink.html">Generate Link  |</a></th>
+                       <th align="center"><a href="transaction h.html">Transaction History   |</a></th>
+                       <th align="center"><a href="policy.html">Policy  |</a></th>
+                       <th align="center"><a href="logout.html">Logout</a></th>  
+                   </tr>  
+               </thead>
+               <tbody>
+                   
+               </tbody>
+            </table>
+            <div style="display: flex;">
+            <table style="width:20%"float="left">
+              <thead>
+                  
+              </thead>
+               <tbody>
+                      <tr align="center"><td style="font-size: 150">&#9746;</td></tr> 
+                      <tr align="center"><td><input id="upload" type="submit" value="Upload Picture"></input></td></tr> 
+               </tbody> 
+            </table>
+            <table style="width: 80%; margin: 20px 0;" float="right">
+              <thead></thead>
+                    <form>
+                      <tr>
+                        <td align="left">Title Here:</td>
+                        <td><input id="title-here" type="text" value="Macbook Air £800"</td>
+                      </tr>
+                      <tr>
+                        <td align="left">Description:</td>
+                        <td><textarea placeholder="Description" id="description" cols="23" rows="6"></textarea></td>
+                      </tr>
+                      <tr>
+                        <td align="left">Account Number:</td>
+                        <td><input id="account-number" type="number" value="123-456-789-0"</td>
+                      </tr>
+                      <tr>
+                        <td align="left">Bank:</td>
+                        <td><input type="text" list="banklist">
+                            <datalist id="banklist">
+                               <option value="HSBC">
+                               <option value="Bank Of America">
+                               <option value="Royal Bank of Canada"> 
+                               <option value="Sberbank of Russia">
+                               <option value="BNP Paribas">
+                               <option value="BCA">
+                               <option value="BNI">
+                               <option value="KB">
+                            </datalist>  
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left">Account Holder:</td>
+                        <td><input id="account-holder" type="text" value="Enter Name"</td>
+                      </tr>
+                      <tr>
+                        <td align="left">Transaction:</td>
+                        <td>
+                          <select name="transaction">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>   
+                          </select>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>*if the transaction is for 3 person, choose 3 from the drop-down list.</td>  
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td style="color: green;">&#9745; Send to Mobile Phone</td>  
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td style="color: green;">&#9745; Send to Email</td>  
+                      </tr>
+                      <tr>
+                        <td align="left">Send to Mobile Phone:</td>
+                        <td><input id="mobile-phone" type="number" value="Enter Number"</td>
+                      </tr>
+                      <tr>
+                        <td align="left">Send to Email:</td>
+                        <td><input id="email" type="email" value="Enter Email"</td>
+                      </tr>
+                     <tr>
+                       <td></td>
+                      <td>
+                        <input id="generate" type="submit" value="Generate Nabr Link">
+                      </td>
+                     </tr>                
+                   </form> 
+               </tbody>  
+           </table>
+           </div>
+        </main>
+    </body>
+</html>
